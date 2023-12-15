@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <h1 class="logo">My Personal Portfolio <span class="dot">.</span></h1>
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav class="nav-items">
+                <a href="#home" class="nav-item" onclick="toggleSection('home')">Home</a>
+                <a href="#about" class="nav-item" onclick="toggleSection('about')">About</a>
+                <a href="#experience" class="nav-item" onclick="toggleSection('experience')">Experience</a>
+                <a href="#projects" class="nav-item" onclick="toggleSection('projects')">Project</a>
+                <a href="#contact" class="nav-item" onclick="toggleSection('contact')">Contact</a>
+                <a href="#table" class="nav-item" onclick="toggleSection('table')">Table</a>
+            </nav>
+        </header>
+
+        <section id="home" class="background-container">
+            <div class="me">
+                <div class="parallax"></div>
+                <div class="about-me-container" id="about">
+                    <div class="content">
+                        <p>Hello, This is,</p>
+                        <h1><span class="orange-text">Princess Dianne Sampayan</span> <span class="orange-text">Montilla</span></h1>
+                        <h3>A person that believes in saying "FAKE IT TILL YOU MAKE IT"</h3>
+
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/princess.sampayan.16/" target="_blank">
+                                <img src="fb.jpg" alt="Facebook">
+                            </a>
+                            <a href="https://www.instagram.com/diannemontillaa?igshid=NGVhN2U2NjQ0Yg==" target="_blank">
+                                <img src="instagram.jpg" alt="Instagram">
+                            </a>
+                            <a href="sampayandianne146@gmail.com" target="_blank">
+                                <img src="ggg.jpg" alt="Gmail">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="c:\Users\Administrator\Pictures\IMG_20231129_142138_574.jpg" alt="Background Image">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="about-text" class="text-section">
+            <h2>About Me</h2>
+            <p>Name: Princess Dianne Montilla</p>
+            <p>Address: Bitaugan, Cagwait Surigao del Sur</p>
+            <p>Status: Single</p>
+            <p>Age: 18 years old</p>
+            <p>Hobbies: Dancing, Singing</p>
+        </div>
+
+        <div id="home-text" class="text-section">
+            <h2>Welcome to My Portfolio</h2>
+            <h3>Introduction: My Web Project</h3>
+            <p>Hello! I'm really enthusiastic to share with you my project.. This portfolio was created by using HTML and CSS as part of a project assigned by Sir Vincent Griffith Felicia whom encouraged and taught us on how to overcome this level.</p>
+            <h3>The Project: Portfolio Web Design</h3>
+            <p>HTML and CSS where you can enjoy styling your project. These are the building blocks of web pages. HTML shapes the content, and CSS adds style and makes things look good.</p>
+            <h4>Sir Vincent Griffith Felicia is our very approachable instructor here you can learned a lot. He shared the knowledges he had in this field where we also apply to ourselves because of his tricks.</h4>
+        </div>
+
+        <div id="contact-text" class="text-section">
+            <h2>Contact Me</h2>
+            <h3>Email: sampayandianne146@gmail.com</h3>
+            <h3>Phone number: 09278358733</h3>
+        </div>
+
+        <section id="experience" class="text-section">
+            <h2>Experience</h2>
+            <h3>Creating Games with Scratch and doing programming</h3>
+    <p>I made a game using Scratch, which is like a fun way to tell computers what to do. It helped me learn how to think and solve problems logically. I got to design and build my own game, which was really exciting!</p>
+
+    <h3>Building My Own Website</h3>
+    <p>I also made my own website using HTML and CSS. It was a bit like crafting my personal space on the internet. This project not only improved my coding skills but also let me show off my work and who I am. It was a creative and technical adventure!</p>
+
+    <h3>Learning C++ Programming</h3>
+    <p>Recently, I started learning C++, a special language computers understand. It's powerful and lets me do more complex things with coding. Learning C++ has made me a better programmer and opened up new possibilities for me.</p>
+
+        </section>
+
+        <section id="projects" class="text-section">
+            <h2 class="section-title">Projects & Experiences</h2>
+        
+            <div class="project">
+                <h3 class="project-title">Guessing Game in C++</h3>
+                <p class="project-description">Embark on a coding adventure with my friends! We crafted a thrilling guessing game using C++. Collaborating as a team, we conquered challenges and learned the art of making computers play along. This project taught us the power of teamwork and creative problem-solving.</p>
+            </div>
+        
+            <div class="project">
+                <h3 class="project-title">Building Personal Portfolios</h3>
+                <p class="project-description">In another exciting project, we dove into the world of web development. Using HTML and CSS, we individually designed and built our unique portfolios. It's not just about coding; it's about expressing ourselves online. This experience enriched our skills and let our creativity shine.</p>
+            </div>
+        
+            <p class="section-conclusion">These projects are not just code; they are stories of collaboration, learning, and self-expression. I take pride in what we achieved together!</p>
+        </section>
+        
+
+        <section id="table">
+            <table>
+                <tr>
+                    <th>SUBJECT CODE</th>
+                    <th>SUBJECT DESCRIPTION</th>
+                    <th>TIME</th>
+                    <th>DAY</th>
+                    <th>INSTRUCTOR</th>
+                </tr>
+                <tr>
+                    <td>IT 111</td>
+                    <td>Introduction to Computing</td>
+                    <td>7:30 AM-9:00 AM</td>
+                    <td>Monday/Thursday</td>
+                    <td>Vincent Griffithe Felicia</td>
+                </tr>
+                <tr>
+                    <td>GE US</td>
+                    <td>Understanding the self</td>
+                    <td>9:00 AM-10:30 AM</td>
+                    <td>Monday/Thursday</td>
+                    <td>Earl U. Vasquez</td>
+                </tr>
+                <tr>
+                    <td>IT112</td>
+                    <td>Fundamentals of Programming</td>
+                    <td>10:30 AM-12:00 PM</td>
+                    <td>Monday/Thursday</td>
+                    <td>Vincent Griffithe Felicia</td>
+                </tr>
+                <tr>
+                    <td>MMW</td>
+                    <td>Mathematics in the Modern World</td>
+                    <td>1:00 PM - 2:30 PM</td>
+                    <td>Monday/Thursday</td>
+                    <td>Cristy S. Sabater</td>
+                </tr>
+                <tr>
+                    <td>GE PC</td>
+                    <td>Purposive Communication</td>
+                    <td>2:30 PM - 4:00 PM</td>
+                    <td>Monday/Thursday</td>
+                    <td>Carlyn Mae P. Avila</td>
+                </tr>
+                <tr>
+                    <td>IT 1</td>
+                    <td>Living in the IT Era</td>
+                    <td>4:00 PM - 5:30 PM</td>
+                    <td>Monday/Thursday</td>
+                    <td>Betchie Clair E. Duero</td>
+                </tr>
+                <tr>
+                    <td>NM</td>
+                    <td>Numerical Analysis</td>
+                    <td>9:00 AM-10:30 AM</td>
+                    <td>Tuesday/Friday</td>
+                    <td>Cristy S. Sabater</td>
+                </tr>
+            </table>
+        </section>
+
+        <script>
+            function toggleSection(sectionId) {
+                document.getElementById('about-text').style.display = 'none';
+                document.getElementById('home-text').style.display = 'none';
+                document.getElementById('contact-text').style.display = 'none';
+                document.getElementById('table').style.display = 'none';
+
+                const selectedSection = document.getElementById(sectionId + '-text') || document.getElementById(sectionId);
+                if (sectionId === 'projects') {
+                    selectedSection.style.display = selectedSection.style.display === 'none' ? 'block' : 'none';
+                } else {
+                    selectedSection.style.display = 'block';
+                }
+            }
+
+            function toggleMenu() {
+                const navItems = document.querySelector('.nav-items');
+                navItems.classList.toggle('show');
+            }
+        </script>
+
+    </div>
+</body>
+
+</html>
